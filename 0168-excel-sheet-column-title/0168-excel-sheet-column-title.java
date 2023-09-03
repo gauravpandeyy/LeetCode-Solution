@@ -1,20 +1,12 @@
 class Solution {
-    public String convertToTitle(int columnNumber) {
-           String ans = "";
-        while (columnNumber>0){
-            columnNumber--;
-            ans = (char) ('A'+ (columnNumber%26)) + ans;
-            columnNumber = columnNumber/26;
-        }
-        return ans;
+    public String convertToTitle(int col) {
+       StringBuilder sb=new StringBuilder();
+        while(col>0)
+        {
+         int rem=(col-1)%26;
+           sb.append((char)(rem+'A'));
+           col=(col-1)/26;
+       }
+       return sb.reverse().toString();  
     }
 }
-/*AA
-A=65
-1*26 to power 0 is 1
-1 * 26 to power 1 is 
-26+1==27
-
-
-
-*/
