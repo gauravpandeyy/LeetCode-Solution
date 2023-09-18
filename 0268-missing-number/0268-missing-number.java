@@ -1,10 +1,6 @@
 class Solution {
-    public int missingNumber(int[] nums) {
- return cyclicsort(nums);
-    }
-     static int cyclicsort(int[] arr)
-  {
-    int i=0;
+    public int missingNumber(int[] arr) {
+  int i=0;
     while(i<arr.length)
     {
       int crct=arr[i];
@@ -24,7 +20,7 @@ class Solution {
       }
   }
   return arr.length;
-}
+    }
 static void swap(int[] arr,int a , int b)
 {
 int temp=arr[a];
