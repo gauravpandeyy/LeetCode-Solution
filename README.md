@@ -41,7 +41,6 @@ This repository is part of my journey to master data structures, algorithms, and
 
 ## ✅ Progress
 
-> *(Update these numbers as you go)*
 
 - Total Problems Solved: **735**
 - Easy: **451**
