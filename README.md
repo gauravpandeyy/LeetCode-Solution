@@ -43,10 +43,10 @@ This repository is part of my journey to master data structures, algorithms, and
 
 > *(Update these numbers as you go)*
 
-- Total Problems Solved: **XX**
-- Easy: **X**
-- Medium: **X**
-- Hard: **X**
+- Total Problems Solved: **735**
+- Easy: **451**
+- Medium: **251**
+- Hard: **33**
 
 ---
 
